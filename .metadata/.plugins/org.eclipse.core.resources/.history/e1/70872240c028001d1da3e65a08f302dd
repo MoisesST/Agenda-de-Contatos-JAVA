@@ -1,0 +1,20 @@
+package dao;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import util.HibernateUtil;
+
+public class ContatoDAO {
+	
+	public void saveContato() {
+		
+		Transaction transaction = null;
+		try {
+			Session session = HibernateUtil.getSessionFactory().openSession();
+			
+		} catch (Exception e) {
+			
+		}
+	}
+}

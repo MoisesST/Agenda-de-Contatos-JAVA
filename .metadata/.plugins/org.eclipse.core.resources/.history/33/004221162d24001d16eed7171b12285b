@@ -1,0 +1,29 @@
+package model;
+
+public class Contato {
+	
+	private String informacoes;
+	private String nome;
+	private int telefone;
+	
+	public String getInformacoes() {
+		return informacoes;
+	}
+	public void setInformacoes(String informacoes) {
+		this.informacoes = informacoes;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public int getTelefone() {
+		return telefone;
+	}
+	public void setTelefone(int telefone) {
+		this.telefone = telefone;
+	}
+	
+	
+}
